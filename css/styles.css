@@ -1,0 +1,37 @@
+h1.logo-text {
+	color: #fff;
+	font-size: 20px;
+	margin: 10px 0 0 !important;
+}
+.footer .logo-text {font-size: 19px !important}
+.logo-text:hover {opacity: .8;}
+
+.fc {padding: 0; line-height: 28.5px}
+.fc li {list-style-type: none; padding: 0px;}
+
+.colorbg-text h2 {margin: 0; padding: 0; font-size: 17px; font-weight: 600}
+
+.B_crumbBox {
+	z-index: 1;
+}
+
+.B_crumb {padding: 0 5px;}
+.B_crumb:hover {color: #190B07;}
+
+.B_currentCrumb {padding-left: 5px;}
+
+label {display: none !important}
+
+.grid-index li {width: 100% !important;}
+
+.fl {color: #222 !important}
+.fl:hover {color: #8B4513 !important}
+
+h4 {font-weight: 600;}
+
+.title:hover {opacity: .8;}
+
+.cc .fa {color: #EEDD82; padding-right: 3px;}
+.cc a {font-weight: 600}
+
+#owl-demo h3 {display:none}

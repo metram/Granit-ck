@@ -1,0 +1,326 @@
+
+
+
+#header nav ul.nav-main ul.dropdown-menu {
+	background-color:transparent;
+	color: #07A5DF;
+	border: 0;
+	border-radius: 0 6px 6px 6px;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.08);
+	-moz-animation: fadeInUp .3s ease-in ;
+    -webkit-animation: fadeInUp .3s ease-in ;
+    animation: fadeInUp .3s ease-in;
+}
+
+#header nav ul.nav-main ul.dropdown-menu > li > a {
+	font-weight: 400;
+	text-transform: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+/* Header Mega Menu */
+@media (min-width: 992px) {
+	#header nav.mega-menu .nav, #header nav.mega-menu .dropup, #header nav.mega-menu .dropdown, #header nav.mega-menu .collapse {
+		position: static;
+	}
+
+	#header nav.mega-menu ul.nav-main .mega-menu-content {
+		text-shadow: none;
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-item .mega-menu-sub-title {
+		  font-size: 14px;
+		  text-transform: uppercase;
+		  font-weight: 500;
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-item ul.dropdown-menu {
+		background: #FFF !important;
+		/*border-top: 1px solid #ccc;*/
+		box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-item ul.sub-menu {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-item ul.sub-menu a {
+		text-shadow: none;
+		margin: 0;
+		text-transform: none;
+		display: block;
+		font-weight: normal;
+		border-radius: 4px;
+		border: 0;
+		color:#4E5C6C!important;
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-item:hover ul.sub-menu li:hover a:hover {
+		background: #F4F4F4 !important;
+		text-decoration: none;
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-fullwidth ul.dropdown-menu {
+		border-radius: 6px;
+	}
+
+	#header nav.mega-menu .navbar-inner, #header nav.mega-menu .container {
+		position: relative;
+	}
+
+	#header nav.mega-menu .dropdown-menu {
+		left: auto;
+	}
+
+	#header nav.mega-menu .dropdown-menu > li {
+		display: block;
+	}
+
+	#header nav.mega-menu .mega-menu-content {
+		padding: 20px 30px;
+	}
+
+
+	#header nav.mega-menu.navbar .nav > li > .dropdown-menu:after, 
+	#header nav.mega-menu.navbar .nav > li > .dropdown-menu:before {
+		display: none;
+	}
+
+	
+	#header nav.mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu {
+		width:80%;
+		left: 0;
+		right: 0;
+		top:100%;
+		margin:0 auto;
+	}
+
+	.index-2 #header nav.mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu,
+	.index-3 #header nav.mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu,
+	.index-4 #header nav.mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu {
+	width:100%;
+		
+	}
+	
+	#index-1 nav.mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu { top:62% !important; }
+
+}
+
+
+
+
+
+#header nav {
+	width:auto;
+}
+
+nav ul li {
+	float:none;
+}
+
+#header .main-nav ul li:hover ul.sub-menu {
+	position:initial;
+	display:block!important;
+	background:transparent;
+	box-shadow:none;
+	margin-top:20px!important;
+}
+
+.seperate-li {
+	margin-top:30px;
+}
+
+@media only screen and (max-width : 990px) {
+.dropdown-menu {
+	background-color:transparent!important;
+	position:relative!important;
+	border:none;
+	box-shadow:none;
+}
+
+
+.seperate-li {
+	margin-top:0;
+}
+
+}
+
+
+
+
+#header nav ul.nav-main ul.drop-menu {
+	background-color:transparent;
+	color: #07A5DF;
+	border: 0;
+	border-radius: 0 6px 6px 6px;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.08);
+	-moz-animation: fadeInUp .3s ease-in ;
+    -webkit-animation: fadeInUp .3s ease-in ;
+    animation: fadeInUp .3s ease-in;
+}
+
+#header nav ul.nav-main ul.drop-menu > li > a {
+	font-weight: 400;
+	text-transform: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+/* Header Mega Menu */
+@media (min-width: 992px) {
+	#header nav.mega-menu .nav, #header nav.mega-menu .dropup, #header nav.mega-menu .dropdown, #header nav.mega-menu .collapse {
+		position: static;
+	}
+
+	#header nav.mega-menu ul.nav-main .mega-menu-content {
+		text-shadow: none;
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-item .mega-menu-sub-title {
+		  font-size: 14px;
+		  text-transform: uppercase;
+		  font-weight: 500;
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-item ul.drop-menu {
+		background: #FFF !important;
+		/*border-top: 1px solid #ccc;*/
+		box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-item ul.sub-menu {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-item ul.sub-menu a {
+		text-shadow: none;
+		margin: 0;
+		text-transform: none;
+		display: block;
+		font-weight: normal;
+		border-radius: 4px;
+		border: 0;
+		color:#4E5C6C!important;
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-item:hover ul.sub-menu li:hover a:hover {
+		background: #F4F4F4 !important;
+		text-decoration: none;
+	}
+
+	#header nav.mega-menu ul.nav-main li.mega-menu-fullwidth ul.drop-menu {
+		border-radius: 6px;
+	}
+
+	#header nav.mega-menu .navbar-inner, #header nav.mega-menu .container {
+		position: relative;
+	}
+
+	#header nav.mega-menu .drop-menu {
+		left: auto;
+	}
+
+	#header nav.mega-menu .drop-menu > li {
+		display: block;
+	}
+
+	#header nav.mega-menu .mega-menu-content {
+		padding: 20px 30px;
+	}
+
+
+	#header nav.mega-menu.navbar .nav > li > .drop-menu:after, #header nav.mega-menu.navbar .nav > li > .drop-menu:before {
+		display: none;
+	}
+
+	#header nav.mega-menu .dropdown.mega-menu-fullwidth .drop-menu {
+		width:60%;
+		right: 15px;
+		margin:0 auto;
+		top:100%;
+	}
+
+}
+
+
+
+#header nav {
+	width:auto;
+}
+
+nav ul li {
+	float:none;
+}
+
+#header .main-nav ul li:hover ul.sub-menu {
+	position:initial;
+	display:block!important;
+	background:transparent;
+	box-shadow:none;
+	margin-top:20px!important;
+}
+
+.seperate-li {
+	margin-top:30px;
+}
+
+@media only screen and (max-width : 990px) {
+.drop-menu {
+	background-color:transparent!important;
+	position:relative!important;
+	border:none;
+	box-shadow:none;
+}
+
+.seperate-li {
+	margin-top:0;
+}
+
+}
+
+
+/* Hack Code For IE9 And Above 
+================================================*/
+
+/* Hack Code For IE10 And Above */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ 
+#header nav.mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu {
+	min-height: 600px; 
+	height:auto !important; 
+	height: 600px; 
+}
+
+#header nav.mega-menu .dropdown.mega-menu-fullwidth .drop-menu {
+	min-height: 400px; 
+	height:auto !important; 
+	height: 400px; 
+} 
+*/
+}
+
+/* // Hack Code For IE10 And Above */
+
+/* Hack Code For IE9 */
+
+#header nav.mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu {
+	min-height: 600px\0; 
+	height:auto !important\0; 
+	height: 600px\0;
+}
+
+#header nav.mega-menu .dropdown.mega-menu-fullwidth .drop-menu {
+	min-height: 400px\0; 
+	height:auto !important\0; 
+	height: 400px\0; 
+} 
+/* // Hack Code For IE9 */
+
+/* Hack Code For IE9 And Above 
+================================================*/
